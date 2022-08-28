@@ -1,25 +1,17 @@
-/* color: #ff0094; */
-
 footer {
-    background-color:#222222;
+    background-color: black;
     display: flex;
     width: 100%;
-    /* height: 250px; */
+    height: 250px;
     padding: 10px;
     margin: 0 auto;
-    /* justify-content: center;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction:row; */
-    font-family: nunitosans;
-    position:absolute; 
-    /* bottom:0;  */
-    
-
+    flex-direction: row;
 }
 
 .painel {
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,8 +19,8 @@ footer {
     height: 300px;
 }
 
-.card {
-    background-color: #222222;
+.cardx {
+    background-color: black;
     color: white;
     width: 20%;
     height: 200px;
@@ -39,30 +31,16 @@ footer {
     margin-bottom: 40px;
 }
 
-button {
-    border-radius: 10px;
-    color: #FF007D
-} 
-
-.card2 {
-   color: #ffffff;
-    width: 20%;
-    height: 200px;
-    padding: 10px;
-    margin-bottom: 40px;
-    justify-content: center;
-    align-items: center;
+.logo2 {
+    margin-top: 1px;
 }
 
- .lista{
-    flex-direction: row;
-}
 
 .textosomos {
     width: 80px;
     font-size: 2px;
     text-align: justify;
-
+    margin-top: 1px;
 }
 
 .redes {
@@ -70,4 +48,73 @@ button {
     justify-content: space-between;
     width: 40px;
     height: 20px;
+}
+
+.lista {
+    flex-direction: row;
+}
+
+.card2 {
+    color: #ffffff;
+    width: 20%;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+}
+h3 {
+    color: #FF007D;
+}
+
+button {
+    border-radius: 10px;
+    color: #FF007D
+}
+
+
+ul {
+    text-align: left;
+    justify-content: flex-start;
+    line-height: 20px;
+}
+
+
+.trio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.cartao {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 320px;
+    border: solid 1px rgba(180, 8 , 94,0.3);
+    font-size: 30px;
+}
+
+
+
+.cardsmarcas {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+hr{
+    border: solid 1px  rgba(180, 8 , 94,0.3);
+    width: 30%;
 }
