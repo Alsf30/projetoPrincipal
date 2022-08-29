@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
 
-
-
-.home {
-
-    padding-right: 50px;
-}
-
 .imgMenu {
     width: 20px;
     height: 20px;
@@ -64,32 +57,52 @@ hr {
 }
 
 h1 {
-    font-style: italic;
+    font-style: normal;
     text-align: center;
     margin-right: 400px;
+    color: #ff0094;;
 
 }
+
 
 .produtosLinha1 {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
 }
 
 .produtosLinha2 {
     display: flex;
     justify-content: center;
+    gap: 40px;
+    margin-bottom: 60px;
 }
 
-#produto1 {
-    width: 193px;
-    height: 104px
+.produto1 {
+    font-size: 16.5px;
+    text-align: center;
+    line-height: 25px;
+    max-width: 270px;
 }
 
-#produto2 {
-    width: 168px;
+.produto2 {
+    font-size: 16.5px;
+    text-align: center;
+    line-height: 25px;
+    max-width: 270px;
+}
+
+.fotoProduto {
+    width: auto;
     height: 140px;
 }
 
+.preco {
+    color: #333333;
+    font-size: 16px;
+}
+/*
 #produto3 {
     width: 203px;
     height: 140px;
@@ -112,7 +125,7 @@ h1 {
     height: 152px;
 
 }
-
+ */
 
 
 .paypal {
