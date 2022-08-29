@@ -35,14 +35,14 @@ router.get('/login', loginController.index);
 
 router.get('/carrinho', carrinhoController.index);
 
-router.get('/acessorios', acessoriosController.create);;
+// router.get('/acessorios', acessoriosController.create);;
 
-router.get('/acessorios/:id', acessoriosController.show);
+// router.get('/acessorios/:id', acessoriosController.show);
 
-router.get('/acessorios/:id/editar',acessoriosController.edit);
+// router.get('/acessorios/:id/editar',acessoriosController.edit);
 
-router.put('/acessorios/:id', acessoriosController.update);
+// router.put('/acessorios/:id', acessoriosController.update);
 
-router.delete('/acessorios:id', acessoriosController.destroy);
+// router.delete('/acessorios:id', acessoriosController.destroy);
 
 module.exports = router;

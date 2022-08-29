@@ -7,7 +7,12 @@ const acessoriosController = {
 
     update: (req, res) => {},
     
-    show: (req, res) => {},
+    show: (req, res) => { const {id} = req.params;
+    const acessorios = Acessorios.findById(id);
+    if(!acessorios) {
+        return res.send(`Serviço não encontrado`);
+    }
+    return res.render('acessorios', {acessorios});,
     
     edit: (req, res) => {},
 
