@@ -1,0 +1,215 @@
+
+  header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.logocab {
+    background-color: black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.barra {
+    display: flex;
+    justify-content: space-around;
+    justify-items: flex-start;
+    width: 450px;
+    color: inherit;
+    font-size: 15px;
+    margin-right: 35px;
+    margin-left: 25px;
+}
+
+.segundo {
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    padding: 5px;
+}
+
+.sale {
+    display: flex;
+    font-size: 32px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30px;
+}
+
+.box {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    margin-right: 30px;
+    width: 150px;
+    height: 20px;
+    margin-left: 30px;
+
+}
+
+.roupas {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.painelroupas {
+    flex-direction: row;
+}
+
+.cardsroupas {
+    background-color: aqua;
+    height: 10vh;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+
+}
+  .botoes {
+    display: flex;
+    justify-content: space-between;
+    border: radius 100px;
+    width: 63%;
+    font-size: 20px;
+    border:none;
+
+  }
+  .cred{
+    background:#aa0444;
+    padding: 2%;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .col-25 {
+    -ms-flex: 25%;
+    flex: 25%;
+  }
+  
+  .col-50 {
+    -ms-flex: 30%; 
+    flex: 30%;
+  } 
+  
+  input[type=text] {
+    width: 40%;
+    margin-bottom: 2%;
+    padding: 1.2%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-left: 3%;
+  }
+  
+  label {
+    margin-bottom: 2%;
+    display: flex;
+  }
+
+  .btn {
+    background-color: #aa0444;
+    color: white;
+    padding: 2.5%;
+    margin: 10px 0;
+    width: 60%;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 22%;
+    border: none;
+    
+  }
+.endereco {
+ width: 80%;
+
+
+}
+.blocao {
+  border: 1px solid  rgba(180, 8, 94, 0.3) ;
+  width: 30%;
+  margin: 0 auto;
+
+
+}
+.bloco2 {
+  margin-left: 23%;
+}
+.logo {
+ margin-left: 15%;
+
+}
+.centro{
+  margin-left: 7%;
+}
+.ali{
+  margin-left: 5% ;
+}
+
+footer {
+  margin-top: 2%;
+  background-color: black;
+  display: flex;
+
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.painel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1900px;
+  height: 300px;
+}
+
+.cardx {
+  background-color: black;
+  color: white;
+  width: 20%;
+  height: 200px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+  margin-bottom: 40px;
+}
+
+
+.card2 {
+  color: #ffffff;
+  width: 20%;
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 40px;
+  justify-content: center;
+  align-items: center;
+}
+h3 {
+  color: #FF007D;
+}
+
+button {
+  border-radius: 10px;
+  color: #FF007D
+}
+
+
+ul {
+  text-align: left;
+  justify-content: flex-start;
+  line-height: 20px;
+}
+
+

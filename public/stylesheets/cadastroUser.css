@@ -1,0 +1,84 @@
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+}
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex
+    }
+    h2{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      color:#aa0444
+    }
+    .info{
+      display: block;
+      border: 1px solid #dcdcdc;
+      margin-bottom: 9%;
+      height:4vh
+      }
+      
+      .infon{
+        width: 25%;
+        margin-right: 3%;
+        border: 1px solid #dcdcdc;
+        margin-bottom: 3%; 
+        height:4vh
+      }
+      .infon2{
+        width: 45%;
+        border: 1px solid #dcdcdc;
+        margin-bottom: 3%; 
+        height:4vh
+      }
+      .legenda{
+        display: flex;
+      }
+      .l1{
+        margin-right: 50%;
+      }
+  
+    .btn {
+      background-color: #aa0444;
+      color: white;
+      padding: 2%;
+      width: 30%;
+      border-radius: 9px;
+      cursor: pointer;
+      font-size: 17px;
+      border: none;
+      margin-top: 7%;
+      margin-bottom: 7%
+      
+    }
+  .blocao {
+    border: 1px solid  rgba(180, 8, 94, 0.3) ;
+    width: 70%;
+    margin-bottom: 1%;
+   
+  }
+  .logo {
+    justify-content: center;
+    align-items: center;
+    display: flex
+  }
+  .continue{
+    justify-content: center;
+      align-items: center;
+      display: flex
+  }
+  .blocoInfo{
+  margin-left: 10%;
+  }

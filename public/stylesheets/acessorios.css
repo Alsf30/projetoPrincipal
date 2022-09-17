@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+.trio {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+
+}
+
+.cartao {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 220px;
+    width: 320px;
+    border: solid 1px rgba(180, 8 , 94,0.3);
+    font-size: 30px;
+}
+
+.logo {
+    width: 110.42px;
+    height: 80.28px;
+    margin-left: 120px;
+
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+nav {
+    width: 75%;
+
+}
+
+ul {
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.home {
+
+    padding-right: 50px;
+}
+
+.imgMenu {
+    width: 20px;
+    height: 20px;
+}
+
+.pgtoCartao {
+    width: 25px;
+    height: 25px;
+}
+
+.pixLogo {
+    width: 25px;
+    height: 25px;
+}
+
+.trocaProduto {
+    width: 25px;
+    height: 25px;
+}
+
+.pagamento {
+
+    display: flex;
+    justify-content: center;
+}
+
+.pagamentoCartao {
+    width: 15%;
+
+}
+
+.pix {
+    width: 15%;
+
+}
+
+.troca {
+    width: 15%;
+
+}
+h1{
+    text-align: center;
+}
+
+hr {
+
+    width: 50%;
+    border: 0;
+    border-top: 3px solid black;
+
+
+}
+
+h1 {
+    font-style: italic;
+    text-align: center;
+    margin-right: 400px;
+
+}
+
+.produtosLinha1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#produto1 {
+    width: 193px;
+    height: 104px
+}
+
+#produto2 {
+    width: 168px;
+    height: 140px;
+}
+
+#produto3 {
+    width: 203px;
+    height: 140px;
+}
+
+#produto4 {
+    width: 184px;
+    height: 118px;
+
+}
+
+#produto5 {
+    width: 191px;
+    height: 160px;
+
+}
+
+#produto6 {
+    width: 188px;
+    height: 152px;
+
+}

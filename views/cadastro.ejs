@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/stylesheets/cadastro.css" rel="stylesheet">
+</head>
+
+<body>
+  <%- include('./partials/header') %>
+    <div class="blocao"> 
+    <div class="bloco2">  
+         <img class="logo"src="/images/LOGO_COPCLUB_140x.webp" width="120px">       
+            <p class="addc">Adicionar um Cartão</p>  
+    <div class="centro">
+            <div class="botoes">               
+        <div class="cred"><input type="checkbox" name="ctipos"> Credito</div>
+       <div class="cred"> <input type="checkbox" name="ctipos"> Debito </div>
+    </div>
+    <br> 
+    <div class="ali">    
+    <label for="cname">Nome Do Proprietário</label>
+        <input type="text" id="cname" name="cardname" placeholder="Seu Nome" size="10" maxlength="3">
+        <label for="ccnum">Numero Do Cartão</label>
+        <input type="text" id="cnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+        <label for="validade">Data De Vencimento</label>
+        <input type="text" id="validade" name="expmonth" placeholder="08/29">
+                        
+    <div class="cvv">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" placeholder="352">
+    </div>
+                                   
+    
+      <label for="endereco">Seu Endereço De Cobrança</label>
+      <input type="text" checked="checked" name="sameadr"> </div>
+    <br>
+    </div> 
+</div>  
+     <div class="continue"> </div>><input type="submit" value="Continuar o Cadastro" class="btn">
+      
+    </form>
+</div>
+<%- include('./partials/footer') %>
+
+    
+      <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+      <script src="https://kit.fontawesome.com/bc8a819dc8.js" crossorigin="anonymous"></script> 
+</body>
+</html>

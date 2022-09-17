@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/sale.css" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+    <%- include('./partials/header') %>
+
+
+
+        <div class="part1">
+            <h1 class="marca"> Sale </h1>
+            <a href="url" class="home">home</a>
+        </div>
+
+
+        <div class=" controle">
+            <div class="filtros"><a href="#" style="text-decoration:none">
+                    <font color=black> + FILTROS</font>
+                </a></div>
+            <div class="botao">
+                <select name="filtragem" id="filtragem">
+                    <option value="data"> DATA, MAIS RECENTE PRIMEIRO </option>
+                    <option value="destaque">EM DESTAQUE</option>
+                    <option value="mais">MAIS VENDIDOS</option>
+                    <option value="az"> ORDEM ALFABETICA A-Z</option>
+                    <option value="za"> ORDEM ALFABETICA Z-A</option>
+                    <option value="preco"> PREÇO, ORDEM CRESCENTE</option>
+                    <option value="PRECOINVERSO"> PREÇO, ORDEM DECRESCENTE</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="grade">
+
+                <div class="card">
+                    <img src="/images/camisa1.jpeg" alt="camiseta" width="80%" height="220px">
+                    <div class="descricao">
+                        Camiseta Palla World "Espectro" Marrom
+                    </div>
+                    <div class="preco">
+                        R$ 169,99
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/camiseta2.jpeg" alt="camiseta" width="80%" height="220px">
+                    <div class="descricao">
+                        Camiseta Palla World "Espectro" Preto
+                    </div>
+                    <div class="preco">
+                        R$ 169,99
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/camiseta3.jpeg" alt="camiseta" width="80%" height="220px">
+                    <div class="descricao">
+                        Camiseta Palla World "Espectro" Preto
+                    </div>
+                    <div class="preco">
+                        R$ 169,99
+                    </div>
+                </div>
+
+    </div>
+
+
+    <div class="grade">
+
+        <div class="card">
+            <img src="/images/calca1.jpeg" alt="camiseta" width="80%" height="220px">
+            <div class="descricao">
+                Calça Palla World "P-Works" Branco
+            </div>
+            <div class="preco">
+                R$ 249,90
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/images/calca2.jpeg" alt="camiseta" width="80%" height="220px">
+            <div class="descricao">
+                Calça Palla World "P-Works" Preto
+            </div>
+            <div class="preco">
+                R$ 249,90
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="/images/calca3.jpeg" alt="camiseta" width="80%" height="220px">
+            <div class="descricao">
+                Calça Palla World "Espectro" Preto
+            </div>
+            <div class="preco">
+                R$ 249,90
+            </div>
+        </div>
+
+</div>
+
+
+<div class="grade">
+
+    <div class="card">
+        <img src="/images/tenis1.jpeg"alt="camiseta" width="80%" height="220px">
+        <div class="descricao">
+            Tênis Nike Dunk Low PRM "Vast Grey" Cinza
+        </div>
+        <div class="preco">
+            R$ 2.169,93
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/images/tenis2.jpeg" alt="camiseta" width="80%" height="220px">
+        <div class="descricao">
+            Tênis Air Jordan 4 Retro "Military Black" Branco/Preto
+        </div>
+        <div class="preco">
+            R$ 2.799,90
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="/images/tenis3.jpeg" alt="camiseta" width="80%" height="220px">
+        <div class="descricao">
+            Tênis Air Jordan 1 Mid "Zen Master" Tie Dye
+        </div>
+        <div class="preco">
+            R$ 2.449,90
+        </div>
+    </div>
+
+</div>
+<%- include('./partials/footer') %> 
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+</body>
+
+</html>

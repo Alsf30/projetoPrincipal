@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/login.css">
+
+    
+    
+    <title>Página Login</title>
+</head>
+
+<body>
+  <%- include('./partials/header') %>
+    
+    <main>
+
+        <!-- Passo para quando usuário já possui cadastro -->
+        <section class="container">
+            <div class="formulario1">
+                <p class="login">Login Cop Club</p>
+                
+                <form action="">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" id="password" placeholder="Digite sua senha">
+                    
+                    <input class="submit" type="submit" value="Acessar Conta">
+                    
+                </form>
+
+                <a  id="senha" href="esquecisenha.html">Esqueci minha senha</a>
+                
+            </div>
+
+        <!-- Para criar conta nova -->
+            
+            <div class="formulario2">    
+                <form action="../views/cadastroUser.ejs">
+                    <p class="criarConta">Criar Conta Cop Club</p>
+                    <label for="email">Informe seu e-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                    <input class="submit" type="submit" value="Prosseguir">
+                </form>
+            </div>
+        </section>
+        <div class="contato">
+
+            <p class="redesSociais">Acesse sua conta Cop Club através de suas redes sociais.</p>
+            <img src="/images/instagram-ar21.svg" class="instagram" alt="logo instagram">
+            <img src="/images/FBCapturar.PNG" class="facebook" alt="logo facebook">
+            <img src="/images/twitter2.PNG" class="twitter" alt="logo twitter">
+        </div>
+    </main>
+    <%- include('./partials/footer') %> 
+   
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://kit.fontawesome.com/bc8a819dc8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/stylesheets/pagamento.css" rel="stylesheet">
+     <title>Pagamento Informações</title>
+</head>
+<body>
+  
+  <<%- include('./partials/header') %>
+
+
+    <main>
+        <div class="nomeinicial">
+            <h1>Cop Club</h1>
+            <p> <b>Informações</b> > Pagamento > Recibo</p>
+        </div>
+
+        <div class="palavrapagamento">
+            <h1>Pagamento</h1>
+            <p>Todas as transações são seguras </p>
+        </div>
+
+<section class="tiposdepagame">
+             <div class="Cartaocredito">
+            <input type="radio" id="paypal" required>
+            <span class="iconify" data-icon="ant-design:credit-card-filled" data-width="35" data-height="35"></span>
+            <p>Cartão de Crédito</p>
+          </div>
+
+          <div class="linha">
+          </div>
+
+
+        <div class="Pix">
+            <input type="radio" id="paypal" required>
+            <span class="iconify" data-icon="ic:baseline-pix" data-width="35" data-height="35"></span>
+            <p>Pix</p>
+        </div>
+        <div class="linha">
+        </div>
+
+        <div class="Paypal">
+            <input type="radio" id="paypal" required>
+            <span class="iconify" data-icon="cib:cc-paypal" data-width="35" data-height="35"></span>
+            <p>PayPal</p>
+        </div>
+        <div class="linha">
+        </div>
+
+        <div class="boletobancario">
+            <input type="radio" id="paypal" required>
+            <span class="iconify" data-icon="icon-park:pay-code-two" data-width="35" data-height="35" ></span>
+            <p>Boleto bancário</p>
+        </div>
+        <div class="linha">
+        </div>
+    
+</section>
+<%- include('./partials/footer') %> 
+</main>
+
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="https://kit.fontawesome.com/bc8a819dc8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

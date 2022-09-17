@@ -1,0 +1,52 @@
+<link rel="stylesheet" href="/stylesheets/cadastroUser.css">
+
+<body>
+  <%- include('./partials/header') %>
+ 
+ 
+    <div class="blocao"> 
+    <div class="bloco2">  
+         <div class="logo"><img class="log" src="/images/LOGO_COPCLUB_140x.webp" width="120px">
+        </div> 
+            <h2>Faça seu cadastro</h2>  
+    
+    <br>
+    <div class="blocoInfo">
+
+      <form action="/cadastroUser/criar" method="post">
+    <div class="nome">  Nome:
+        <input class="infon" type="text" id="cname" name="nomeuser" placeholder="Nome">
+    <label for="cname">Sobrenome:
+        <input class="infon2" type="text" id="cname" name="sobrenomeuser" placeholder="Sobrenome" ></label>
+      </div>
+  
+      <div class="legenda">
+        <div class="l1">Data de Nascimento:
+        <input class="info" type="date" id="cnum" name="idadeuser" placeholder="01/01/1900">
+      </div>
+        <div class="l2">CPF:
+        <input class="info" type="text" id="cnum" name="cpfuser" placeholder="111.222.333-44">
+      </div>
+    </div>
+        <div class="legenda">
+          <div class="l1">Número de telefone:
+        <input class="info" type="text" id="cnum" name="telefoneuser" placeholder="(99)99999-9999">
+      </div>
+        <div class="l2" >e-mail:
+        <input class="info" type="text" id="cname" name="emailuser" placeholder="exemplo@email.com">
+      </div>
+      </div>                
+      <div class="legenda">
+      <div class="l1">CEP:
+      <input class="info" type="text" id="cnum" name="cepuser" placeholder="00000-000">
+    </div>
+    </div>
+    </div> 
+     <div class="continue"><input type="submit" value="Continuar o Cadastro" class="btn"></div> 
+</div>
+</form>
+</div>
+    
+     <%- include('./partials/footer') %> 
+</body>
+ 
